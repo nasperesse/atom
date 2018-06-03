@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-2205-p9nqwb.n7t1q0k9"
+    ]
+  ],
+  "_from": "../d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+  "_id": "php-integrator-annotations@1.2.0",
+  "_inCache": true,
+  "_location": "/php-integrator-annotations",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+  "_shasum": "4c7a5f675eefc843e1cbd9df65269ffd52aacb41",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2205-z2q7q4.jz9ndhd7vi/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-2205-p9nqwb.n7t1q0k9",
+  "bugs": {
+    "url": "https://github.com/php-integrator/atom-annotations/issues"
+  },
+  "consumedServices": {
+    "php-integrator.service": {
+      "versions": {
+        "^3.0": "setService"
+      }
+    }
+  },
+  "dependencies": {},
+  "description": "Shows annotations (e.g. for overriden methods interface implementations) in your PHP source code.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/php-integrator/atom-annotations#readme",
+  "keywords": [
+    "php",
+    "annotations",
+    "integrator",
+    "integration",
+    "php-integrator"
+  ],
+  "license": "GPL-3.0",
+  "main": "./lib/Main",
+  "name": "php-integrator-annotations",
+  "optionalDependencies": {},
+  "readme": "# php-integrator/atom-annotations\n<p align=\"right\">\n:coffee:\n<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YKTNLZCRHMRTJ\">Send me some coffee beans</a>\n</p>\n\n![Screenshot](http://ipfs.pics/ipfs/QmTMju5ZZtcHBxKzfMfER35QkNik84Yva3HMbTz5LwMVdC)\n\nThis package provides annotations for your PHP source code using [PHP Integrator](https://github.com/php-integrator/atom-base).\n\n**Note that the [php-integrator-base](https://github.com/php-integrator/atom-base) package is required and needs to be set up correctly for this package to function correctly.**\n\nWhat is included?\n  * Annotations for class methods that are implementing a method from an interface.\n  * Annotations for class methods and properties that are overriding base class or trait members.\n  * Tooltips on mouse over that clarify why the annotations are cluttering your gutter with additional icons.\n  * Annotations for overrides and implementations can be clicked to navigate to respectively the method being overridden or implemented.\n\n![GPLv3 Logo](http://gplv3.fsf.org/gplv3-127x51.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/php-integrator/atom-annotations.git"
+  },
+  "version": "1.2.0"
+}

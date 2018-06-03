@@ -1,0 +1,62 @@
+'.source.js':
+
+	# Datepicker
+	'UI-Bootstrap Datepicker Options':
+		prefix: 'uib-datepicker-options'
+		body:
+			"""
+			{
+				datepickerMode: ${1:'day|month|year'},
+				showWeeks: ${2:true},
+				startingDay: ${3:0}, // (0=Sunday, ..., 6=Saturday)
+				minDate: ${4:null}, // must be JS Date
+				maxDate: ${5:null}, // must be JS Date
+				initDate: ${6:null}, // must be JS Date
+				customClass: ${7:getCustomClass},
+				dateDisabled: ${8:isDateDisabled}
+			}
+			"""
+
+	# Dateparser
+	'UI-Bootstrap Dateparser':
+		prefix: 'uib-dateparser'
+		body:
+			"""
+			uibDateParser.parse(${1:'2004/Sep/4'}, ${2:'yyyy/MMM/dd'}, ${3:new Date()});$4
+			"""
+
+	# Modal
+	'UI-Bootstrap Modal Open':
+		prefix: 'uib-modal-open'
+		body:
+			"""
+			$uibModal.open({
+				templateUrl: '${1:modal.html}',
+				controller: '${2:ModalCtrl}',
+				animation: ${3:true},
+				size: '${4:lg|sm}',
+				resolve: {
+					${5:items: function () {
+						return $scope.items;
+					}}
+				}
+			}).result
+			.then(function (${6:selectedItem}) {
+				$7
+			})
+			.catch(function () {
+				${8:// Modal dismissed.}
+			});$9
+			"""
+
+	'UI-Bootstrap Modal Dismiss':
+		prefix: '$dismiss'
+		body: """
+			$dismiss(${1:reason})
+			"""
+
+	'UI-Bootstrap Modal Close':
+		prefix: '$close'
+		body: """
+			$close(${1:result})
+			"""

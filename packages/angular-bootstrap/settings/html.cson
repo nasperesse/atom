@@ -1,0 +1,15 @@
+'.text.html':
+	editor:
+		completions: [
+			## Properties/Directives for individual use
+			# Buttons
+			'uib-uncheckable'
+			'uncheckable'
+
+			# Carousel
+			'uib-slide'
+
+			# Modal
+			'$dismiss(reason)'
+			'$close(result)'
+		]

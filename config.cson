@@ -1,0 +1,19 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "b8fe0999-b08d-429e-8863-b7ebf036eca6"
+  core:
+    disabledPackages: [
+      "linter"
+    ]
+    telemetryConsent: "limited"
+  "exception-reporting":
+    userId: "fc70ab5d-b752-4eb3-a265-37cf867c2f8d"
+  "linter-ui-default": {}
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+  "php-debug":
+    showWelcome: false
+  welcome:
+    showOnStartup: false

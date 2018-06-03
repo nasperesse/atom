@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-1954-r2c5gd.mtnd0zr529"
+    ]
+  ],
+  "_from": "../d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+  "_id": "php-integrator-autocomplete-plus@1.6.2",
+  "_inCache": true,
+  "_location": "/php-integrator-autocomplete-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+  "_shasum": "40a6aafd32e42226b03f2580a77e2a9adc552f80",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-1954-13nxie8.7likltbj4i/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-1954-r2c5gd.mtnd0zr529",
+  "bugs": {
+    "url": "https://github.com/php-integrator/atom-autocompletion/issues"
+  },
+  "consumedServices": {
+    "php-integrator.service": {
+      "versions": {
+        "^3.0": "setService"
+      }
+    }
+  },
+  "dependencies": {},
+  "description": "Provides autocompletion for your PHP source code.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "homepage": "https://github.com/php-integrator/atom-autocompletion#readme",
+  "keywords": [
+    "php",
+    "autocompletion",
+    "autocomplete-plus",
+    "integrator",
+    "integration",
+    "php-integrator"
+  ],
+  "license": "GPL-3.0",
+  "main": "./lib/Main",
+  "name": "php-integrator-autocomplete-plus",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "3.0.0": "getProviders"
+      }
+    }
+  },
+  "readme": "# php-integrator/atom-autocompletion\n<p align=\"right\">\n:coffee:\n<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YKTNLZCRHMRTJ\">Send me some coffee beans</a>\n</p>\n\n## Legacy\nAutocompletion is included in the [base package](https://github.com/php-integrator/atom-base) since version 3.2.0. This package has become redundant as a result. It will likely cease to stop working in the future as new versions of the base package are released.\n\n## About\nThis package provides autocompletion for your PHP source code using [PHP Integrator](https://github.com/php-integrator/atom-base) as well as Atom's [autocomplete-plus](https://github.com/atom/autocomplete-plus).\n\n**Note that the [php-integrator-base](https://github.com/php-integrator/atom-base) package is required and needs to be set up correctly for this package to function correctly.**\n\nWhat is included?\n  * Autocompletion for local variable names.\n  * Autocompletion for global functions and constants.\n  * Autocompletion (snippets) for tag names in docblocks.\n  * Autocompletion for class, interface and trait members.\n  * Autocompletion for class, interface and trait names as well as their constructors.\n  * Automatic adding of use statements when class names are autocompleted (with a somewhat intelligent positioning).\n    * Included is a command to sort the current use statements.\n\n![GPLv3 Logo](http://gplv3.fsf.org/gplv3-127x51.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/php-integrator/atom-autocompletion.git"
+  },
+  "version": "1.6.2"
+}

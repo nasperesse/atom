@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-2706-1c0ihn5.fs21jlwhfr"
+    ]
+  ],
+  "_from": "../d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+  "_id": "latex-image-paste@0.3.0",
+  "_inCache": true,
+  "_location": "/latex-image-paste",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+  "_shasum": "e736c36d69f890c5a298b8b6a481f75445ac4cda",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2706-1frvyyt.dvgrolmcxr/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-2706-1c0ihn5.fs21jlwhfr",
+  "activationHooks": [
+    "language-latex:grammar-used",
+    "language-tex:grammar-used",
+    "language-latexsimple:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/simon123h/latex-image-paste/issues"
+  },
+  "dependencies": {},
+  "description": "When an image is pasted into LaTeX, this package creates a directory including the image and inserts a figure including the image path into the document.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/simon123h/latex-image-paste#readme",
+  "keywords": [
+    "latex",
+    "image",
+    "paste",
+    "figure",
+    "clipboard",
+    "copy"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "latex-image-paste",
+  "optionalDependencies": {},
+  "readme": "# LaTeX Image Helper\n\nAn Atom plugin for LaTeX grammar. Create image file relative to the markdown file and insert a relative url to that file.\n\nInspired by [markdown-image-helper](https://github.com/bigyuki/markdown-image-helper).\n\n![Demo](https://raw.githubusercontent.com/cslanziano/latex-image-paste/master/doc/gif.gif)\n\n## Usage\n1. Take a screenshot or copy any image to the clipboard.\n2. Paste it into Atom LaTeX document\n3. Change the name of the image or accept the proposed name (ENTER)\n3. See that an directory name \"img\" including the png file was created and a figure has been inserted in the document.\n4. You can replace the image. Copy another image to the cipboard select the filename of the image in the text editor and paste (ctrl + v).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon123h/latex-image-paste.git"
+  },
+  "version": "0.3.0"
+}

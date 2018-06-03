@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118429-9688-qd7ejw.sz3yccv7vi"
+    ]
+  ],
+  "_from": "../d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+  "_id": "angular-2@0.2.6",
+  "_inCache": true,
+  "_location": "/angular-2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+  "_shasum": "d73fe82defd984cb119a1cb34b5bbdf25078cb3d",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9688-1tk7b5g.5ric4eipb9/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118429-9688-qd7ejw.sz3yccv7vi",
+  "author": {
+    "name": "Madhusudhan Dollu"
+  },
+  "bugs": {
+    "url": "https://github.com/madhusudhand/atom-angular2/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "js-module-indexer": "^0.0.4",
+    "lodash": "^4.16.3",
+    "typescript": "^2.1.4"
+  },
+  "description": "A complete package for Angular 2 app development. [BETA]",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/madhusudhand/atom-angular2#readme",
+  "keywords": [
+    "atom",
+    "angular2"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "angular-2",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "3.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "## atom-angular-2\nA complete package for Angular 2 app development. [BETA]\n\n**Note:**\n\nThis package is very much still a work in progress.\n\nCurrently supports **angular-cli** projects only.\n\n### Features\n* Syntax highlighting for Typescript\n* Autocompletes\n  - Typescript\n  - Angular\n  - Your App classes\n* Resolves Imports\n* Snippets\n\n![Autocomplete](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/gif/autocomplete_import.gif?raw=true \"Autocomplete\")\n\n![Resolves Imports](https://raw.githubusercontent.com/madhusudhand/atom-angular2/master/docs/gif/autocomplete_snippet.gif?raw=true \"Resolves Imports\")\n\n### Contributing\n\n- Atom -> Install Shell Commands\n- Clone this repo\n- cd atom-angular2\n- apm link\n- do changes and give a pull request!!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhusudhand/atom-angular2.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.6"
+}

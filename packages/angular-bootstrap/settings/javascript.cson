@@ -1,0 +1,9 @@
+'.source.js':
+	editor:
+		completions: [
+			'$uibModal'
+			'$uibModalInstance'
+			'$uibModalProvider'
+			'$uibPosition'
+			'$uibTooltipProvider'
+		]

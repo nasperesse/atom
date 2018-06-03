@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118429-9670-gb62kv.ewx9mxtj4i"
+    ]
+  ],
+  "_from": "../d-118429-9670-eulsmt.k3jif6r/package.tgz",
+  "_id": "angular-bootstrap@1.0.1",
+  "_inCache": true,
+  "_location": "/angular-bootstrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118429-9670-eulsmt.k3jif6r/package.tgz",
+  "_shasum": "d51f5bca6784d509a7adc8a192d378ae1cca534f",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-9670-eulsmt.k3jif6r/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118429-9670-gb62kv.ewx9mxtj4i",
+  "activationCommands": {
+    "atom-workspace": "angular-bootstrap:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/herrherrmann/angular-bootstrap/issues"
+  },
+  "dependencies": {},
+  "description": "Snippets and autocompletions for Angular UI Bootstrap Components.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/herrherrmann/angular-bootstrap#readme",
+  "license": "MIT",
+  "name": "angular-bootstrap",
+  "optionalDependencies": {},
+  "readme": "# Angular-Bootstrap\nAtom Snippets for [UI Bootstrap](https://angular-ui.github.io/bootstrap) (Bootstrap components for AngularJS). Should work together nicely with the packages [angularjs](https://atom.io/packages/angularjs) and [atom-bootstrap3](https://atom.io/packages/atom-bootstrap3).\n\n# How to use\n\nIn any HTML or JavaScript file simply start typing `uib-`. Depending on your configuration of the autocomplete-plus package you'll see auto-completions and you can insert the snippets via pressing enter and/or tab.\n\n**Tip:** Quickly toggle through placeholders via pressing tab!\n\n# Examples\n\n![uib-btn snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-btn-demo.gif)\n\n![uib-accordion snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-accordion-demo.gif)\n\n![uib-modal snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-modal-demo.gif)\n\n# Compatibility\n\nCurrently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+. Other versions might work but are not tested.\n\n# Progress\n- [x] Accordion\n- [x] Alert\n- [x] Button\n- [x] Carousel\n- [x] Collapse\n- [x] Dateparser\n- [x] Datepicker\n- [x] DatepickerPopup\n- [x] Dropdown\n- [x] Modal\n- [x] Pager\n- [x] Pagination\n- [x] Popover\n- [x] Position\n- [x] Progressbar\n- [x] Rating\n- [x] Tabs\n- [x] Timepicker\n- [x] Tooltip\n- [x] Typeahead\n- [x] JS Snippets (e.g. modal settings, datepicker-options and callbacks)\n\n# Contribute\n\nIf you encounter an error or just want to improve the package, just open an [issue](https://github.com/herrherrmann/angular-bootstrap/issues) or directly create a pull request! When adding snippets, please make sure to use senseful examples (that's usually a mix of the official [Angular UI Bootstrap Reference](https://angular-ui.github.io/bootstrap) and the [Bootstrap Reference](http://getbootstrap.com/)).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herrherrmann/angular-bootstrap.git"
+  },
+  "version": "1.0.1"
+}

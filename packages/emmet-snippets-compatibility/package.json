@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118429-6842-1rnljbm.s4s6takyb9"
+    ]
+  ],
+  "_from": "../d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+  "_id": "emmet-snippets-compatibility@1.0.6",
+  "_inCache": true,
+  "_location": "/emmet-snippets-compatibility",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+  "_shasum": "7b06ff8d028c8a765ae74775142d1affd2dfac49",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118429-6842-kw455a.9z43brcnmi/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118429-6842-1rnljbm.s4s6takyb9",
+  "bugs": {
+    "url": "https://github.com/peterjohnhunt/emmet-snippets-compatibility/issues"
+  },
+  "dependencies": {},
+  "description": "Gives Atom autocomplete-snippets primary tab function over emmet. Adds emmet php compatibility",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/peterjohnhunt/emmet-snippets-compatibility#readme",
+  "keywords": [
+    "emmet",
+    "peterjohnhunt",
+    "compatibility",
+    "snippets",
+    "php"
+  ],
+  "license": "MIT",
+  "name": "emmet-snippets-compatibility",
+  "optionalDependencies": {},
+  "readme": "# Emmet Snippets Compatibility\n\nAn autocomplete-snippets + emmet compatibility package\n\n## Features\n\n* Allows the snippets-autocomplete package tab function to take priority over the emmet package tab function, allowing a user to use snippets when available, and otherwise fallback to use emmet.\n* Enables snippets in PHP files.\n\n## Installation\n* This package can be installed via Atom's package manager\n\n## Upcoming Features\n* Settings to toggle specific keymap overrides\n* Setting to toggle php override.\n* Compatibility of autocmplete-snippets inside quotes\n* Compatibility with snippets even when autocomplete-snippets is not active\n* Package Dependency on Emmet being installed and activated\n\n## Credits\nThis package was developed by [PeterJohn Hunt](http://peterjohnhunt.com) by the request of [Jeff Calaway](http://www.brandoverboard.org)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjohnhunt/emmet-snippets-compatibility.git"
+  },
+  "version": "1.0.6"
+}

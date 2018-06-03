@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+        "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-2625-cugwiw.oljdm6xbt9"
+    ]
+  ],
+  "_from": "../d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+  "_id": "latex-plus@0.9.1",
+  "_inCache": true,
+  "_location": "/latex-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+    "spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+  "_shasum": "946d51407ae1bfa2749c9c12ba8fe08652cc8101",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/d-118428-2625-1kimah8.9hojg1ra4i/package.tgz",
+  "_where": "/private/var/folders/k7/hyj78f2s4pg77z9qlgvbl_xr0000gn/T/apm-install-dir-118428-2625-cugwiw.oljdm6xbt9",
+  "activationHooks": [
+    "language-latex:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/andrewrynhard/atom-latex-plus/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-message-panel": "latest",
+    "atom-package-deps": "^4.0.1",
+    "babel-core": "5.8.x",
+    "babel-runtime": "5.8.x"
+  },
+  "description": "LaTeX for Atom.",
+  "devDependencies": {
+    "babel": "5.8.x",
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.0.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/andrewrynhard/atom-latex-plus#readme",
+  "keywords": [
+    "tex",
+    "latex",
+    "pdflatex",
+    "xelatex",
+    "lualatex",
+    "texlive",
+    "miktex"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "latex-plus",
+  "optionalDependencies": {},
+  "package-deps": [
+    "pdf-view"
+  ],
+  "readme": "# LaTeX-Plus\n\n[![Travis branch](https://img.shields.io/travis/andrewrynhard/atom-latex-plus/master.svg?style=flat-square)]()\n[![Plugin installs!](https://img.shields.io/apm/dm/latex-plus.svg?style=flat-square)](https://atom.io/packages/latex-plus)\n[![Package version!](https://img.shields.io/apm/v/latex-plus.svg?style=flat-square)](https://atom.io/packages/latex-plus)\n\nLaTeX for Atom.\n\n## About\n  A `latexmk` wrapper developed for [Atom](https://atom.io).\n#### Features\n  * SyncTeX\n  * Project management\n  * Error detection\n  * `TEXINPUTS`\n\n## Usage\n#### Quick Start\n  1. Ensure a latex distribution is installed, and that `latexmk` and `synctex` is in your `PATH`.\n  2. Configure `TeX Bin` in the package settings to the location of your latex distribution's installation location.\n  3. Ensure that the `language-latex` package for Atom is installed.\n  4. Open a tex file within the directory containing your LaTeX project.\n  5. `compile` the project.\n\n#### Project Configuration\nLaTeX-Plus keeps metadata on projects using a `JSON` formatted file that is\neasily configurable. Simply invoke the `edit` command to customize to your\nliking.\n\n#### Keymaps\n\n###### OS X\n* compile and sync project: `cmd-;`\n* compile project: `alt-cmd-:`\n* sync project: `alt-cmd-;`\n* edit project: `cmd-'`\n* clean project: `alt-cmd-'`\n\n###### Linux and Windows\n* compile and sync project: `ctrl-;`\n* compile project: `alt-ctrl-:`\n* sync project `ctrl-alt-;`\n* edit project: `ctrl-'`\n* clean project: `ctrl-alt-'`\n\n![screencast](https://raw.githubusercontent.com/andrewrynhard/atom-latex-plus/resources/gif/compile.gif)\n\n![screencast](https://raw.githubusercontent.com/andrewrynhard/atom-latex-plus/resources/gif/errors.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewrynhard/atom-latex-plus.git"
+  },
+  "version": "0.9.1"
+}
